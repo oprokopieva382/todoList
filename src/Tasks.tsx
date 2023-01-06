@@ -1,14 +1,14 @@
 import React from "react";
-import { DataType } from "./App";
+// import { DataType } from "./App";
 
-type TasksPropsType = {
-  data: DataType;
-};
+// type TasksPropsType = {
+//   data: DataType;
+// };
 
-export const Tasks = (props: TasksPropsType) => {
+export const Tasks = () => {
   return (
     <div>
-      <h1>{props.data.title}</h1>
+      {/* <h1>{props.data.title}</h1>
       <ul>
         {props.data.tasks.map((el) => {
           return (
@@ -24,7 +24,7 @@ export const Tasks = (props: TasksPropsType) => {
         {props.data.students.map((el) => {
           return <li>{el}</li>;
         })}
-      </ul>
+      </ul> */}
     </div>
   );
 };
